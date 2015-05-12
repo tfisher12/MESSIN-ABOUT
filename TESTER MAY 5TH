@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>TMF</title>
+	<meta name="description" content="Curating beautiful content since '91">
+	<meta name="author" content="tim fisher">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="base.css">
+	<link rel="stylesheet" href="COPY-CSS.css">
+	
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- font
+  ================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans' rel='stylesheet' type='text/css'>
+
+
+ 
+  <div class="menu">
+
+<!--   <h1>Digitial content curation</h1> --> <!-- <h2>BY Tim Fisher</h2> -->
+  <div class="logo">
+  		<img id="styleLOGO" src="rsz_1evenbettertmf.png" alt="">
+  		 <div  id='topSocial' class="social inlineIt">
+					
+			<a class="email" href="mailto:timothymfisher@hotmail.com"><data-icon="&#xe601;" span class="icon-mail-read"></span></a>	
+			<a class="twitter" href="https://twitter.com/1tmf"><span class="icon-twitter"></span></a>	
+			<a class="instagram" href=""><span class="icon-instagram"></span></a>	
+			<a class="tumblr" href=""><span class="icon-tumblr"></span></a>
+			
+		</div>
+  </div> 	
+
+ 
+
+  </div>
+</header>
+
+<br>
+
+
+<body>
+	
+<div role="main">
+
+
+<section class="hero">
+
+		<div class="logo">
+				
+		</div>
+		
+		
+	<p id="introText"> "Do not tell me this a difficult problem. If it were not difficult it would not be a problem. Nothing comes from doing nothing. Do not compromise yourself. You are all you have got. The rich substance of the Universe is yours to do with as you wish. "  - Ed Koch
+			
+			</p>
+	
+
+
+</section>
+
+	<section class="portfolio">
+		<h2 id="front_header2">
+<!-- 			<h4> Recent projects </h4>
+ -->		</h2>
+		<article>
+				<a href="yv.html"><img  src="http://s11.postimg.org/4vb19qokj/FANCYYVONNE1.jpg"></a> 
+		</article>
+
+
+			<h3>
+
+					<div id="theTog" class="TogWrap">
+					    <a href="yv.html" id="togTrigger" class="togTrigger" >
+					        	<div id="box" onmouseover="changeText('Yvonne Ellen -  Click to read more')" onmouseout="changeback('Yvonne Ellen')" >
+
+								<div id="text-display" >
+														Yvonne Ellen
+								</div>
+
+								</div>
+
+					    </a>
+					        <p class="togContent">
+					        Yvonne Ellen home-ware is a truly unique range of tableware designed to add charm and intrigue to your home. 
+					        <br>
+					        Yvonne's strong passion for beautiful fine bone china alongside a love of quirky, decorative illustration combines to create the one of a kind ranges within Yvonne Ellen homeware. 
+					        <br>
+					        Yvonne gives unloved and long forgotten vintage ceramics a new lease of life for contemporary tastes. 
+
+
+					        
+					        	<em id="clickREAD"  >Click picture to read more 
+					        	</em>
+					        </p>
+
+					  </div>
+		    </h3>
+				
+		<article>
+							<img src="http://s7.postimg.org/hp3kswtfv/roamad_A_2.jpg"> 	
+		</article>	
+			<h3>
+			<div id="theTog" class="TogWrap">
+					    <a href="yv.html" id="togTrigger2" class="togTrigger" >
+					        	<div id="box" onclick="changeText('BoxSweet -  Click to read more')" onclick="changeback('Box Sweet [Archived]')" >
+
+								<div id="text-display" >
+														Box Sweet [Archived]
+								</div>
+
+								</div>
+
+					    </a>
+					        <p class="togContent">
+					        Yvonne Ellen home-ware is a truly unique range of tableware designed to add charm and intrigue to your home. 
+					        <br>
+					        Yvonne's strong passion for beautiful fine bone china alongside a love of quirky, decorative illustration combines to create the one of a kind ranges within Yvonne Ellen homeware. 
+					        <br>
+					        Yvonne gives unloved and long forgotten vintage ceramics a new lease of life for contemporary tastes. 
+					       		
+		<img  id="imagesSecondary" src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10406509_788433651194417_6108882819068912429_n.jpg?oh=8c590032e871d7e1c6bf2c3dc0249ac2&oe=55B5887C&__gda__=1437591748_eff37d8ea39a9029f4227c7f33b2b77e">
+
+		<img id="imagesThird" src="https://scontent-lhr.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10270745_785180571519725_1544438997245846251_n.jpg?oh=58e3ab3164cb341d01e95a3039054e52&oe=55A4AA2B">
+		
+					        </p>
+
+					  </div>
+
+			</h3>
+		
+		<article>
+				<a href="mrsimms.html"><img src="http://s21.postimg.org/xjeh149kn/MR_SIMMS.jpg"></a>
+		</article>
+			<h3> 
+						<div id="theTog" class="TogWrap">
+					    <a href="yv.html" id="togTrigger3" class="togTrigger" >
+					        	<div id="box" onmouseover="changeText('Mr Simms Sweet Shops -  Click to read more')" onmouseout="changeback('Mr Simms Sweet Shops')" >
+
+								<div id="text-display" >
+														Mr Simms Sweet Shops
+								</div>
+
+								</div>
+
+					    </a>
+					        <p class="togContent">
+					        Yvonne Ellen home-ware is a truly unique range of tableware designed to add charm and intrigue to your home. 
+					        <br>
+					        Yvonne's strong passion for beautiful fine bone china alongside a love of quirky, decorative illustration combines to create the one of a kind ranges within Yvonne Ellen homeware. 
+					        <br>
+					        Yvonne gives unloved and long forgotten vintage ceramics a new lease of life for contemporary tastes.
+					        	<em id="clickREAD"  >Click picture to read more 
+					        	</em> 
+					        </p>
+
+					  </div>
+
+		</h3>
+	</section>	
+	</div>
+
+
+
+
+<footer>
+	<article>
+		
+		<nav>
+			<div class="social">
+			
+			<a class="email" href="mailto:timothymfisher@hotmail.com"><data-icon="&#xe601;" span class="icon-mail-read"></span></a>	
+			<a class="twitter" href="https://twitter.com/1tmf"><span class="icon-twitter"></span></a>	
+			<a class="instagram" href=""><span class="icon-instagram"></span></a>	
+			<a class="tumblr" href=""><span class="icon-tumblr"></span></a>
+	
+		</div>	
+
+		<p  id="bottomCredit" >2015 © Tim Fisher</p>
+		</nav>
+	</article>
+
+
+
+</footer>	
+
+
+	<!-- JS
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js">
+
+	</script>
+
+	<script type="text/javascript" src="index.js"></script>
+
+	
+
+	
+
+
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
+
+
+

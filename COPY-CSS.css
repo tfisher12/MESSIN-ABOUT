@@ -1,0 +1,727 @@
+
+@import url(http://fonts.googleapis.com/css?family=Tinos:400,700,400italic,700italic);
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot?ft5rq0');
+  src:url('fonts/icomoon.eot?#iefixft5rq0') format('embedded-opentype'),
+    url('fonts/icomoon.woff?ft5rq0') format('woff'),
+    url('fonts/icomoon.ttf?ft5rq0') format('truetype'),
+    url('fonts/icomoon.svg?ft5rq0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  line-height: 1;
+  
+   /*Enable Ligatures ================ */
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+
+   /*Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail-read:before {
+  content: "\e601";
+}
+
+.icon-twitter:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea90";
+}
+
+.icon-tumblr:before {
+  content: "\eabb";
+}
+
+
+/* #Generic Styles
+================================================== */
+body {
+  	background: ##F1F2F6;
+  		max-width: 100%;
+ 	min-width: 300px;
+  width: 100%;
+ 
+  	}
+
+
+ /* 	new bit:*/ 
+section.portfolio {
+  padding: 15px;
+/*  border: 5px solid orange;
+*/
+
+* {font-family:arial; margin:0; padding:0;}
+.logo {font-size:40px; font-weight:bold;color:#00a;  background-color: #48CFA6; font-style:italic;}
+.intro {color:#777; font-style:italic; margin:10px 0;}
+.menu {background:#00a; color:#fff; height:40px; line-height:40px;letter-spacing:1px; width:100%;}
+}
+
+
+/*----
+*/
+
+
+  	
+h1 {
+
+  	font-style: normal;
+  	font-weight: 700;
+  	letter-spacing: 0px;
+  	text-transform: uppercase;
+  	font-size: 1em;
+  	text-align: center;
+  	line-height: 1em;
+  	letter-spacing: 1px;
+  	}
+h2 {
+  	font-family: "nimbus-sans-n5","nimbus-sans",sans-serif;
+  	font-style: normal;
+  	font-weight: 500;
+  	font-size: 1.7em;
+  	line-height: 1.1em;
+  	}
+  
+h2#front_header {
+  left: 2px;
+}
+
+  h3 {
+   font-family: 'Lato', sans-serif;
+   	       	    font-size: 1em;
+   	    letter-spacing: 1.9px;
+   	    padding-bottom: 1.5%;
+   	       	   
+  }
+
+  h3.portPage_h3 {
+    text-align: left;
+    font-size: 150%;
+    
+  }
+
+p#introText {
+  width: 52%;
+  margin: 2.5% auto;
+  clear: both;
+  padding-top: 1.8%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  line-height: 1.8em;
+  letter-spacing: 0;
+  color: #7F7E7E;
+  font-weight: 400;
+}
+
+
+
+button {
+  	font-weight: 500;
+  	font-size: 1.8em;
+  	}
+
+a {
+  	text-decoration: none;
+  		
+  	}
+
+* {
+  	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	box-sizing: border-box;
+  	}
+
+h4 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.block {
+	display: block;
+	}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+	}
+
+.cf:after {
+    clear: both;
+	}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+ 
+.cf {
+    *zoom: 1;
+	}
+
+/* #Site Styles
+================================================== */
+
+
+/*new bit */
+
+
+/*-----*/
+body {
+  	padding: 0 3%;
+  	min-width: 300px;
+  	background: #F3F4F8;
+  	}
+
+
+.logo {
+    text-align: center;
+   /* margin-top: 4%;*/
+    margin-bottom: 2%;
+    background-color: #4BD1AB;
+ 
+
+
+/*   	}
+  	
+  	section.hero {
+  	width: 100%;
+  	max-width: 1280px;
+  	margin: 2.5% auto;
+  	clear: both;
+  	padding-top: 2%;
+  	
+   	}
+   	
+   	section.hero h1 {
+   	    font-family: 'Lato', sans-serif;
+   	       	    font-size: 1.3em;
+   	    letter-spacing: 2.1px;
+   	    margin-bottom: 1px;
+   	    
+  
+  	   	}
+  	   	
+  	   		section.hero h2 {
+   	    font-family: 'Lato', sans-serif;   	    font-size: 0.8em;
+   	    letter-spacing: 2.1px;
+   	    text-align: center;
+   	    margin-top: 9px;
+   	    color: #5E5E61;
+  
+  	   	}
+   	
+   	section.hero p {
+  	width: 52%;
+  	margin: 2.5% auto;
+  	clear: both;
+  	padding-top: 1.8%;
+  	font-family: 'Open Sans', sans-serif;
+  	font-size: 1.4em;
+  	line-height: 1.8em;
+  	letter-spacing: 0;
+  	color: #7F7E7E;
+  	font-weight: 400;
+    text-align: justify;
+   	}
+   	
+   	section.hero p a {
+   	border-bottom: 1px solid #D1D0D0;
+   	}
+   	
+   	section.hero .social {
+  	text-align: center;
+  	    list-style-type: none;
+  	    /*margin-top: 56px; */ 	
+  	     	font-size: 6em;   
+  	     	color: #7F7E7E;  
+  	     /*	margin-bottom: 10%;*/  
+}*/
+
+a.email {
+  font-size: 65%;
+}
+
+a.twitter {
+  font-size: 65%;
+}
+
+a.instagram {
+  font-size: 65%;
+}
+
+a.tumblr {
+  font-size: 65%;
+}
+ 
+
+
+a.email:hover {
+color: #00AAF0;
+}
+
+a.twitter:hover {
+color: #E34B84;
+}
+
+a.instagram:hover {
+color: #50E3C2;
+
+}
+
+a.tumblr:hover {
+color: #EF344F;
+}
+
+
+
+p#primaryYV {
+  font-family: "Tinos";
+  font-size: larger;
+}
+
+p.ptext {
+  font-family: "Tinos";
+  font-size: larger;
+}
+
+  	
+section.portfolio {
+  	width: 100%;
+  	max-width: 1280px;
+  	margin: 2.5% auto;
+  	clear: both;
+  	text-align: center;
+   	}
+   	
+ section.portfolio .title {  	
+ background-color: white;
+ }
+
+section.portfolio article {
+    float: left;
+    width: 100%;
+   	position: relative;
+   	overflow: hidden;
+   	margin-bottom: 2.5%;
+    }
+section.portfolio article img {
+  	
+   	width: 100%;
+   	}
+
+
+/*SORT WEDNESDAY 1ST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! JAVAA CLASS SWAP
+*/ 
+
+img#imagesSecondary {
+    padding-top: 20px;
+    padding-bottom: 1px;
+  }
+
+
+
+footer {
+  	width: 100%;
+  	max-width: 1280px;
+  	margin: auto;
+  	clear: both;
+  	border-top: solid 2px #E2E2E2;
+  	margin-top: 3%;
+  	margin-bottom: 5%;
+  	padding-top: 2%;
+  	
+  	}
+footer p {
+    color: #7F7E7E;
+    font-size: 0.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+      	font-family: "nimbus-sans-n5","nimbus-sans",sans-serif;
+    }
+footer nav {
+    text-align: center;
+    font-size: 3em;
+    }
+
+  
+  
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+	section.portfolio article p {
+    display: none; }
+section.description .left-column {
+    width: 100%;
+    padding-right: 0;
+	}
+section.description .right-column {
+    width: 100%;
+    padding-left: 0;
+    }
+section.contact form div.control {
+    width: 100%;
+  	}	
+section.portfolio article p {
+  	display: none; }
+header nav ul.social {
+    display: none;
+    }
+
+p:first-of-type {
+    display: show;
+  }
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px)
+and (max-width : 480px) {
+
+	
+	section.hero h1 {
+   	    font-family: 'Lato', sans-serif;
+   	       	    font-size: 20px;
+   	    
+   	    
+  
+  	   	}
+
+header nav ul.social {
+    display: none;
+    }
+header h1.logo {
+	margin-top: 2.5%;
+	margin-bottom: 5%;
+	}
+.view-website h2 {
+    font-size: 1em;
+   	top: 20%;
+   	}
+   	
+   		section.hero p {
+  	width: 96%;
+}
+
+ 
+   	
+
+
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 414px) {
+
+	
+	section.hero h1 {
+   	    font-family: 'Lato', sans-serif;
+   	       	    font-size: 1em;
+   	       	    
+   	 }
+   	 
+   	 	section.hero p {
+  	width: 96%;
+}
+
+  	section.hero .social {
+  	 	
+  	  font-size: 4.5em;
+  	  /*margin-top: 26px; */   
+  	     	 }
+  	     	 
+  	     	 body {
+  	padding: 0 0%;
+  	
+  	}
+   	
+   	h3 {
+   
+   	       	    font-size: 0.7em;     	   
+   	   
+  }
+/*//new bit - 31/3/15*/
+  div.social {
+      font-size:85%;
+    }    
+  
+  section.portfolio article {
+   
+   	margin-bottom: 4%;
+    }
+
+  p:first-of-type {
+    display: none;
+  }
+
+  p#primaryPortPageText {
+    display: block;
+    font-size: smaller;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  p#bottomCredit {
+    display: inline;
+    padding-top: -20px;
+  }
+/*SORT WEDNESDAY 1ST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! JAVAA CLASS SWAP
+*/  img#imagesSecondary {
+    padding-top: 20px;
+    padding-bottom: 1px;
+  }
+
+  img#imagesThird {
+    padding-top: 20px;  
+  }
+
+
+
+}
+   	
+
+} 
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+.view-website h2 {
+   	font-size: 2em;
+   	top: 19%;
+   	font-weight: 600;
+   	}
+.main-nav ul {
+	width: 61%;
+	}}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+  	 	section.hero p {
+  	width: 80%;
+}
+
+ body {
+  	padding: 0 0%;
+  	
+  	}
+
+
+
+}
+
+
+  
+/* Styles by Singh Satnam - http://www.fiverr.com/sarvankarthik6 */
+
+/*
+new stufffffff*/
+
+.menu.cloned {
+width: 100% !important;
+left: 0 !important;
+right: 0 !important;
+}
+
+.social a {
+vertical-align: middle !important;
+display: inline-block !important;
+}
+
+.social.inlineIt {
+display: inline-block;
+
+}
+
+#topSocial.inlineIt {
+padding-left: 8%;
+border-left: 2px dotted green
+}
+
+/* Styles by Singh Satnam - http://www.fiverr.com/sarvankarthik6 */	
+
+a {
+ text-decoration: none;
+ outline: none;
+}
+div#page {
+    margin: 60px auto;
+    border: 1px solid #dedede;
+    width: 910px;
+}
+.TogWrap {
+    width: 100%;
+/*    padding: 22px;*/
+}
+.togTrigger {
+ /*   border: 1px solid #bebebe;*/
+    width: 100%;
+    background: #000000;
+    color: #fff;
+}
+
+a#togTrigger {
+  font-size: 20px;
+
+}
+
+a#togTrigger2 {
+  font-size: 20px;
+
+}
+
+a#togTrigger3 {
+  font-size: 20px;
+
+}
+
+
+.togContent  {
+    margin-top: 9px;
+    border: 1px solid #bebebe;
+    background: #F3F4F8;
+    font-family: "Tinos";
+}
+	
+p.togContent {
+    text-align: justify;
+    border:none;
+  width: 92%;
+  margin: 2.5% auto;
+  clear: both;
+  padding-top: 1.8%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.8em;
+  letter-spacing: 0;
+  color: #7F7E7E;
+  font-weight: 400;
+  }
+
+  a#togTrigger:hover {
+    text-align: 
+  }
+
+  div#text-display {
+  background-color: #545958;
+  vertical-align: middle;
+}
+
+div#theTog {
+  padding-top: 2px;
+} 
+
+
+
+
+
+/* Compressing Nav on Scroll */
+
+.compressNav.logo {
+	height: 90px;
+}
+
+.compressNav #styleLOGO {
+	height: 139%;
+	display: inline-block;
+	position: relative;
+	top: -20px;
+}
+
+.compressNav #topSocial.inlineIt {
+	font-size: .7em;
+	position: relative;
+	top: -25px;
+}
+
+.logo.compressNav {
+  border-bottom: 1px ridge gray;
+}
+
+@media (max-width: 650px) {
+	.menu.cloned .logo, .menu.original {
+		height: 100px;
+	}
+
+	#styleLOGO {
+		height: 139%;
+		display: inline-block;
+		position: relative;
+		top: -20px;
+	}
+
+	#topSocial.inlineIt {
+		font-size: .7em;
+		position: relative;
+		top: -25px;
+	}
+}
+@media (max-width: 475px) {
+	.menu.cloned .logo {
+		height: 70px;
+	}
+
+	#styleLOGO {
+		height: 139%;
+		display: inline-block;
+		position: relative;
+		top: -25px;
+	}
+
+	#topSocial.inlineIt {
+		font-size: .4em;
+		position: relative;
+		top: -37px;
+	}
+}
+
+/* Compressing Nav on Scroll */
+
+
+
+
+/*
+css for additional pages */
+
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    background-color: #79BD9A;
+    text-decoration: none;
+    color: white;
+}
